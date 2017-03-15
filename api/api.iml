@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output/>
+    <orderEntry type="inheritedJdk"/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+    </content>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.web3j/core/2.1.0/8e5a2dc89ab553dd2cb8c98abfda53e72e190110/core-2.1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.web3j/core/2.1.0/fcb59cea2526b0b3158930c07adaf23247a49c58/core-2.1.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.web3j/core/2.1.0/75cf5da7bbb4171fb4a510a89db3605c7e0ee34f/core-2.1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/733db77aa8d9b2d68015189df76ab06304406e50/httpclient-4.5.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/cde431ba6b9871fbd0abb65d740424c8e5b734b6/httpclient-4.5.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/b9f9e3e5255b6ddc3bf21be05428c7a60d00e042/httpclient-4.5.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/b3035f37e674c04dafe36a660c3815cc59f764e2/jackson-databind-2.8.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/a2731bbd4a2c022460f9662e01e05bbb5b142500/jackson-databind-2.8.5-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/b658c4640ee224391e699ebaea4a3eb1c2ea8239/jackson-databind-2.8.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.54/1acdedeb89f1d950d67b73d481eb7736df65eedb/bcprov-jdk15on-1.54.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.54/c3efcd6ffbaa7f96827a2ea375557791b39155a/bcprov-jdk15on-1.54-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.54/27cf7631a904e6b98d9842db13e09a22e524eee4/bcprov-jdk15on-1.54-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.lambdaworks/scrypt/1.4.0/906506b74f30c8c20bccd9ed4a11112d8941fe87/scrypt-1.4.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.lambdaworks/scrypt/1.4.0/a090f3e16b0d29361b5d89f1be7198c95b62fb17/scrypt-1.4.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.lambdaworks/scrypt/1.4.0/57d1aeaa56daeed9ef55a163aa12c6d5f5c333bf/scrypt-1.4.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.7.0/4fdcf1fc27c1a8f55d1109df986c923152f07759/javapoet-1.7.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.7.0/7a5f8a3d2021a5a14a0457a73516e0ed4a08e04e/javapoet-1.7.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.7.0/514d3c57164e54d51fc41388bf6b5a95b748b88f/javapoet-1.7.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.4/522cfb00b6c015b72c64ee60054b4f6338880858/rxjava-1.2.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.4/821adae68ca2bf693518811daebaf759d2e03569/rxjava-1.2.4-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.4/a4e2280742c2f7935d69f0deff2acea315010cf7/rxjava-1.2.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-unixsocket/0.15/caac6379cbcac9cfb5b63d719907b43861e8ac19/jnr-unixsocket-0.15.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-unixsocket/0.15/fcc11190ccca95c3cc42c0db3072b01ec3fbf8ca/jnr-unixsocket-0.15-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-unixsocket/0.15/1320352a2ac3f0ecf93391e2b32d24e5e5754ec4/jnr-unixsocket-0.15-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/b31526a230871fbe285fbcbe2813f9c0839ae9b0/httpcore-4.4.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/1b4a6aa7a5d36816fe5a291b9d4aac4e22a1d54b/httpcore-4.4.4-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/83033ee697035dfb9ce3503e1ac0c5a33021e503/commons-logging-1.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/d103169e712eb2473072d53636b0c3bc380b8afb/commons-codec-1.9-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/45b426f7796b741035581a176744d91090e2e6fb/jackson-annotations-2.8.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/21f8639b30914ae5c31424d0bfc682ac54796c0f/jackson-annotations-2.8.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/29a1a95363d497e856c0a7d682e4f7973e334068/jackson-annotations-2.8.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/60d059f5d2930ccd1ef03535b713fd9f933d1ba7/jackson-core-2.8.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/5fbdef7c2013e19b3592f8358a172b1fe05037c1/jackson-core-2.8.5-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/14b04ebe5d1d9b54b793f84245d983b4c329634d/jackson-core-2.8.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-ffi/2.1.2/627fff71439402c4b697a03026b1d733140a6b19/jnr-ffi-2.1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-ffi/2.1.2/9e985360d3cc98c33330085cabcd3f40d9772baa/jnr-ffi-2.1.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-ffi/2.1.2/756487e6d02b6c9e9da795544d2c80c0eccf8eee/jnr-ffi-2.1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.6/84955256aa28919f12b6c7c9437ed65d814a3c0c/jnr-constants-0.9.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.6/8ca586ddb20155bfa4cb08e0fb51c841346e2d6c/jnr-constants-0.9.6-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.6/5579ab41c687085e714fc330536ec4dda3350b08/jnr-constants-0.9.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-enxio/0.14/a33f125337b270c9ba4cf1e84b40af405c5380f3/jnr-enxio-0.14.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-enxio/0.14/d7ffdf2f5724b953cabdb268d243b3c498dfa8f0/jnr-enxio-0.14-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-enxio/0.14/ef2388ecb89668935f88b411914d065623921992/jnr-enxio-0.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-posix/3.0.33/86dd65d4c33c4a6c8c260ee256bfcfecd8c45bee/jnr-posix-3.0.33.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-posix/3.0.33/e4d55e3bb0b47a163f9d2dc286dc11176258ae39/jnr-posix-3.0.33-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-posix/3.0.33/79b1c4d62dd5ffd138d0771111fec86afb1d19b5/jnr-posix-3.0.33-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/c5928f546442090dba86cd7bdc2b7561c3deb3aa/jffi-1.2.14.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/ff3706087046b73343314c17e849d4f26d51d5b1/jffi-1.2.14-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/248a063e04045dc09bcc65ad000e514f57860b3f/jffi-1.2.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/d8b010006d29b2db8fa4c498d6c3e508ad06b24a/jffi-1.2.14-native.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/ff3706087046b73343314c17e849d4f26d51d5b1/jffi-1.2.14-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/248a063e04045dc09bcc65ad000e514f57860b3f/jffi-1.2.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/a7111830132c7f87d08fe48cb0ca07630f8cb91c/asm-commons-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-commons-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-commons-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/c7126aded0e8e13fed5f913559a0dd7b770a10f3/asm-analysis-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-analysis-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-analysis-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/287749b48ba7162fb67c93a026d690b29f410bed/asm-tree-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-tree-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-tree-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/1512e5571325854b05fb1efce1db75fcced54389/asm-util-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-util-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-util-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-x86asm/1.0.2/6936bbd6c5b235665d87bd450f5e13b52d4b48/jnr-x86asm-1.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-x86asm/1.0.2/65aa28fb4f4bf735e3cb657a33f82f3b4388b99a/jnr-x86asm-1.0.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-x86asm/1.0.2/6bb6efcd010567ad80c8bb2bdd5065b30f0f1468/jnr-x86asm-1.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.web3j/core/2.1.0/8e5a2dc89ab553dd2cb8c98abfda53e72e190110/core-2.1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.web3j/core/2.1.0/fcb59cea2526b0b3158930c07adaf23247a49c58/core-2.1.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.web3j/core/2.1.0/75cf5da7bbb4171fb4a510a89db3605c7e0ee34f/core-2.1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/733db77aa8d9b2d68015189df76ab06304406e50/httpclient-4.5.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/cde431ba6b9871fbd0abb65d740424c8e5b734b6/httpclient-4.5.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/b9f9e3e5255b6ddc3bf21be05428c7a60d00e042/httpclient-4.5.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/b3035f37e674c04dafe36a660c3815cc59f764e2/jackson-databind-2.8.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/a2731bbd4a2c022460f9662e01e05bbb5b142500/jackson-databind-2.8.5-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/b658c4640ee224391e699ebaea4a3eb1c2ea8239/jackson-databind-2.8.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.54/1acdedeb89f1d950d67b73d481eb7736df65eedb/bcprov-jdk15on-1.54.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.54/c3efcd6ffbaa7f96827a2ea375557791b39155a/bcprov-jdk15on-1.54-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.54/27cf7631a904e6b98d9842db13e09a22e524eee4/bcprov-jdk15on-1.54-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.lambdaworks/scrypt/1.4.0/906506b74f30c8c20bccd9ed4a11112d8941fe87/scrypt-1.4.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.lambdaworks/scrypt/1.4.0/a090f3e16b0d29361b5d89f1be7198c95b62fb17/scrypt-1.4.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.lambdaworks/scrypt/1.4.0/57d1aeaa56daeed9ef55a163aa12c6d5f5c333bf/scrypt-1.4.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.7.0/4fdcf1fc27c1a8f55d1109df986c923152f07759/javapoet-1.7.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.7.0/7a5f8a3d2021a5a14a0457a73516e0ed4a08e04e/javapoet-1.7.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.7.0/514d3c57164e54d51fc41388bf6b5a95b748b88f/javapoet-1.7.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.4/522cfb00b6c015b72c64ee60054b4f6338880858/rxjava-1.2.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.4/821adae68ca2bf693518811daebaf759d2e03569/rxjava-1.2.4-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.4/a4e2280742c2f7935d69f0deff2acea315010cf7/rxjava-1.2.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-unixsocket/0.15/caac6379cbcac9cfb5b63d719907b43861e8ac19/jnr-unixsocket-0.15.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-unixsocket/0.15/fcc11190ccca95c3cc42c0db3072b01ec3fbf8ca/jnr-unixsocket-0.15-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-unixsocket/0.15/1320352a2ac3f0ecf93391e2b32d24e5e5754ec4/jnr-unixsocket-0.15-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/b31526a230871fbe285fbcbe2813f9c0839ae9b0/httpcore-4.4.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/1b4a6aa7a5d36816fe5a291b9d4aac4e22a1d54b/httpcore-4.4.4-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/83033ee697035dfb9ce3503e1ac0c5a33021e503/commons-logging-1.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/d103169e712eb2473072d53636b0c3bc380b8afb/commons-codec-1.9-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/45b426f7796b741035581a176744d91090e2e6fb/jackson-annotations-2.8.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/21f8639b30914ae5c31424d0bfc682ac54796c0f/jackson-annotations-2.8.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/29a1a95363d497e856c0a7d682e4f7973e334068/jackson-annotations-2.8.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/60d059f5d2930ccd1ef03535b713fd9f933d1ba7/jackson-core-2.8.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/5fbdef7c2013e19b3592f8358a172b1fe05037c1/jackson-core-2.8.5-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/14b04ebe5d1d9b54b793f84245d983b4c329634d/jackson-core-2.8.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-ffi/2.1.2/627fff71439402c4b697a03026b1d733140a6b19/jnr-ffi-2.1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-ffi/2.1.2/9e985360d3cc98c33330085cabcd3f40d9772baa/jnr-ffi-2.1.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-ffi/2.1.2/756487e6d02b6c9e9da795544d2c80c0eccf8eee/jnr-ffi-2.1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.6/84955256aa28919f12b6c7c9437ed65d814a3c0c/jnr-constants-0.9.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.6/8ca586ddb20155bfa4cb08e0fb51c841346e2d6c/jnr-constants-0.9.6-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.6/5579ab41c687085e714fc330536ec4dda3350b08/jnr-constants-0.9.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-enxio/0.14/a33f125337b270c9ba4cf1e84b40af405c5380f3/jnr-enxio-0.14.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-enxio/0.14/d7ffdf2f5724b953cabdb268d243b3c498dfa8f0/jnr-enxio-0.14-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-enxio/0.14/ef2388ecb89668935f88b411914d065623921992/jnr-enxio-0.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-posix/3.0.33/86dd65d4c33c4a6c8c260ee256bfcfecd8c45bee/jnr-posix-3.0.33.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-posix/3.0.33/e4d55e3bb0b47a163f9d2dc286dc11176258ae39/jnr-posix-3.0.33-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-posix/3.0.33/79b1c4d62dd5ffd138d0771111fec86afb1d19b5/jnr-posix-3.0.33-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/c5928f546442090dba86cd7bdc2b7561c3deb3aa/jffi-1.2.14.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/ff3706087046b73343314c17e849d4f26d51d5b1/jffi-1.2.14-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/248a063e04045dc09bcc65ad000e514f57860b3f/jffi-1.2.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/d8b010006d29b2db8fa4c498d6c3e508ad06b24a/jffi-1.2.14-native.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/ff3706087046b73343314c17e849d4f26d51d5b1/jffi-1.2.14-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/248a063e04045dc09bcc65ad000e514f57860b3f/jffi-1.2.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/a7111830132c7f87d08fe48cb0ca07630f8cb91c/asm-commons-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-commons-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-commons-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/c7126aded0e8e13fed5f913559a0dd7b770a10f3/asm-analysis-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-analysis-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-analysis-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/287749b48ba7162fb67c93a026d690b29f410bed/asm-tree-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-tree-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-tree-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/1512e5571325854b05fb1efce1db75fcced54389/asm-util-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-util-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-util-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-x86asm/1.0.2/6936bbd6c5b235665d87bd450f5e13b52d4b48/jnr-x86asm-1.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-x86asm/1.0.2/65aa28fb4f4bf735e3cb657a33f82f3b4388b99a/jnr-x86asm-1.0.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-x86asm/1.0.2/6bb6efcd010567ad80c8bb2bdd5065b30f0f1468/jnr-x86asm-1.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.web3j/core/2.1.0/8e5a2dc89ab553dd2cb8c98abfda53e72e190110/core-2.1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.web3j/core/2.1.0/fcb59cea2526b0b3158930c07adaf23247a49c58/core-2.1.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.web3j/core/2.1.0/75cf5da7bbb4171fb4a510a89db3605c7e0ee34f/core-2.1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/733db77aa8d9b2d68015189df76ab06304406e50/httpclient-4.5.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/cde431ba6b9871fbd0abb65d740424c8e5b734b6/httpclient-4.5.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.2/b9f9e3e5255b6ddc3bf21be05428c7a60d00e042/httpclient-4.5.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/b3035f37e674c04dafe36a660c3815cc59f764e2/jackson-databind-2.8.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/a2731bbd4a2c022460f9662e01e05bbb5b142500/jackson-databind-2.8.5-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.5/b658c4640ee224391e699ebaea4a3eb1c2ea8239/jackson-databind-2.8.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.54/1acdedeb89f1d950d67b73d481eb7736df65eedb/bcprov-jdk15on-1.54.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.54/c3efcd6ffbaa7f96827a2ea375557791b39155a/bcprov-jdk15on-1.54-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.54/27cf7631a904e6b98d9842db13e09a22e524eee4/bcprov-jdk15on-1.54-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.lambdaworks/scrypt/1.4.0/906506b74f30c8c20bccd9ed4a11112d8941fe87/scrypt-1.4.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.lambdaworks/scrypt/1.4.0/a090f3e16b0d29361b5d89f1be7198c95b62fb17/scrypt-1.4.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.lambdaworks/scrypt/1.4.0/57d1aeaa56daeed9ef55a163aa12c6d5f5c333bf/scrypt-1.4.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.7.0/4fdcf1fc27c1a8f55d1109df986c923152f07759/javapoet-1.7.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.7.0/7a5f8a3d2021a5a14a0457a73516e0ed4a08e04e/javapoet-1.7.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.squareup/javapoet/1.7.0/514d3c57164e54d51fc41388bf6b5a95b748b88f/javapoet-1.7.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.4/522cfb00b6c015b72c64ee60054b4f6338880858/rxjava-1.2.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.4/821adae68ca2bf693518811daebaf759d2e03569/rxjava-1.2.4-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.4/a4e2280742c2f7935d69f0deff2acea315010cf7/rxjava-1.2.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-unixsocket/0.15/caac6379cbcac9cfb5b63d719907b43861e8ac19/jnr-unixsocket-0.15.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-unixsocket/0.15/fcc11190ccca95c3cc42c0db3072b01ec3fbf8ca/jnr-unixsocket-0.15-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-unixsocket/0.15/1320352a2ac3f0ecf93391e2b32d24e5e5754ec4/jnr-unixsocket-0.15-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/b31526a230871fbe285fbcbe2813f9c0839ae9b0/httpcore-4.4.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/1b4a6aa7a5d36816fe5a291b9d4aac4e22a1d54b/httpcore-4.4.4-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/c5c19e3e6af6b452def290cde12a3ee4c35c893c/httpcore-4.4.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/83033ee697035dfb9ce3503e1ac0c5a33021e503/commons-logging-1.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/d103169e712eb2473072d53636b0c3bc380b8afb/commons-codec-1.9-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/3f15fff45d57656685abfee9e8302bf14580044c/commons-codec-1.9-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/45b426f7796b741035581a176744d91090e2e6fb/jackson-annotations-2.8.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/21f8639b30914ae5c31424d0bfc682ac54796c0f/jackson-annotations-2.8.0-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/29a1a95363d497e856c0a7d682e4f7973e334068/jackson-annotations-2.8.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/60d059f5d2930ccd1ef03535b713fd9f933d1ba7/jackson-core-2.8.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/5fbdef7c2013e19b3592f8358a172b1fe05037c1/jackson-core-2.8.5-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.5/14b04ebe5d1d9b54b793f84245d983b4c329634d/jackson-core-2.8.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-ffi/2.1.2/627fff71439402c4b697a03026b1d733140a6b19/jnr-ffi-2.1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-ffi/2.1.2/9e985360d3cc98c33330085cabcd3f40d9772baa/jnr-ffi-2.1.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-ffi/2.1.2/756487e6d02b6c9e9da795544d2c80c0eccf8eee/jnr-ffi-2.1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.6/84955256aa28919f12b6c7c9437ed65d814a3c0c/jnr-constants-0.9.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.6/8ca586ddb20155bfa4cb08e0fb51c841346e2d6c/jnr-constants-0.9.6-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-constants/0.9.6/5579ab41c687085e714fc330536ec4dda3350b08/jnr-constants-0.9.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-enxio/0.14/a33f125337b270c9ba4cf1e84b40af405c5380f3/jnr-enxio-0.14.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-enxio/0.14/d7ffdf2f5724b953cabdb268d243b3c498dfa8f0/jnr-enxio-0.14-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-enxio/0.14/ef2388ecb89668935f88b411914d065623921992/jnr-enxio-0.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-posix/3.0.33/86dd65d4c33c4a6c8c260ee256bfcfecd8c45bee/jnr-posix-3.0.33.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-posix/3.0.33/e4d55e3bb0b47a163f9d2dc286dc11176258ae39/jnr-posix-3.0.33-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-posix/3.0.33/79b1c4d62dd5ffd138d0771111fec86afb1d19b5/jnr-posix-3.0.33-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/c5928f546442090dba86cd7bdc2b7561c3deb3aa/jffi-1.2.14.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/ff3706087046b73343314c17e849d4f26d51d5b1/jffi-1.2.14-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/248a063e04045dc09bcc65ad000e514f57860b3f/jffi-1.2.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/d8b010006d29b2db8fa4c498d6c3e508ad06b24a/jffi-1.2.14-native.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/ff3706087046b73343314c17e849d4f26d51d5b1/jffi-1.2.14-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jffi/1.2.14/248a063e04045dc09bcc65ad000e514f57860b3f/jffi-1.2.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/dcc2193db20e19e1feca8b1240dbbc4e190824fa/asm-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/a7111830132c7f87d08fe48cb0ca07630f8cb91c/asm-commons-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-commons-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-commons-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/c7126aded0e8e13fed5f913559a0dd7b770a10f3/asm-analysis-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-analysis-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-analysis-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/287749b48ba7162fb67c93a026d690b29f410bed/asm-tree-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-tree-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-tree-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/1512e5571325854b05fb1efce1db75fcced54389/asm-util-5.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/c87547fa477f7dc22c5e3c5ddfc6dfac726e5b15/asm-util-5.0.3-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-util-5.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-x86asm/1.0.2/6936bbd6c5b235665d87bd450f5e13b52d4b48/jnr-x86asm-1.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-x86asm/1.0.2/65aa28fb4f4bf735e3cb657a33f82f3b4388b99a/jnr-x86asm-1.0.2-javadoc.jar!/"/>
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar:///home/mvdbos/.gradle/caches/modules-2/files-2.1/com.github.jnr/jnr-x86asm/1.0.2/6bb6efcd010567ad80c8bb2bdd5065b30f0f1468/jnr-x86asm-1.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+  <component name="ModuleRootManager"/>
+</module>
